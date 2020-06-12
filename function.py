@@ -20,3 +20,9 @@ def def_val(a=2,b=2):
 def_val(3)
 def_val(b=22)
 
+#arbitary argument
+def pizza(types,size,*toping):
+    print(f"hello {types}")
+    #print(f"your pizza of {types}, type of size {size} is ready with toping of {toping} is ready")
+
+pizza("chicken","XL","extra cheese","Olives")
