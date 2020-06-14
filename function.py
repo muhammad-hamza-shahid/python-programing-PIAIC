@@ -26,3 +26,4 @@ def pizza(types,size,*toping):
     #print(f"your pizza of {types}, type of size {size} is ready with toping of {toping} is ready")
 
 pizza("chicken","XL","extra cheese","Olives")
+print("I dont know the version of python I am using")
