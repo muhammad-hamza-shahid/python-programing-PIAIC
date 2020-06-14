@@ -20,10 +20,15 @@ def def_val(a=2,b=2):
 def_val(3)
 def_val(b=22)
 
-#arbitary argument
+#arbitary argument or unknown number of arguments
 def pizza(types,size,*toping):
-    print(f"hello {types}")
+    print("hello")
     #print(f"your pizza of {types}, type of size {size} is ready with toping of {toping} is ready")
 
-pizza("chicken","XL","extra cheese","Olives")
+#pizza("chicken","XL","extra cheese","Olives")
 print("I dont know the version of python I am using")
+
+#using return in python
+def ret(a,b):
+    return a+b
+ret(2,4)
