@@ -30,5 +30,11 @@ print("I dont know the version of python I am using")
 
 #using return in python
 def ret(a,b):
-    return a+b
-ret(2,4)
+    return a+b,"Hamza"
+print(ret(2,4))
+
+def rt():
+    return "you returned"
+
+print(rt())
+
