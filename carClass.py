@@ -12,6 +12,26 @@ class Car():
     def carBreak(self):
         print(f"{self.model} hav very good breaking system")
 
+    def completeInfo(self):
+        owner = Owner("hamza","23")
+        return owner.name,self.make,self.model
+
+class Owner():
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def getName(self):
+        return self.name
+    def getAge(self):
+        return self.age
+
+
 car1=Car("Honda","City","2020")
 print(car1.description())
 print(car1.model)
+
+tt = car1.completeInfo()
+print(f"{tt[0]} is the owner of {tt[1]} and the model of his car is {tt[2]}")
+print(car1.completeInfo())
+
+
